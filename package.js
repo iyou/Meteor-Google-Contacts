@@ -1,20 +1,16 @@
 Package.describe({
-  summary: "Google-Contacts package",
-  version: "0.2.0",
-  git: "https://github.com/iyou/Meteor-Google-Contacts.git",
-  name: "long:google-contacts"
+  name: 'long:google-contacts',
+  summary: 'Google-Contacts package',
+  version: '0.2.1',
+  git: 'https://github.com/iyou/Meteor-Google-Contacts.git'
 });
 
-Package.on_use(function (api) {
-  api.add_files(['index.js'], 'server');
-  if(api.export)
-    api.export('GoogleContacts');
-
-  if(api.versionsFrom){
-    api.versionsFrom('METEOR@0.9.0');
-  }
+Package.onUse(function (api) {
+  api.versionsFrom('0.9.0');
+  api.addFiles('index.js', 'server');
+  api.export('GoogleContacts');
 });
 
 Npm.depends({
-  "underscore": "1.5.2"
+  'underscore': '1.5.2'
 });
