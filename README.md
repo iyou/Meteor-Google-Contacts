@@ -1,8 +1,9 @@
-Meteor wrapper for the Google Contacts API.
+Meteor wrapper for the [Google Contacts API](https://developers.google.com/google-apps/contacts),
+based on [Lajos Koszti](https://github.com/Ajnasz/Google-Contacts)'s Node library.
 
 # Install
 
-  mrt add google-contacts
+    meteor add google-contacts
 
 # Usage
 
