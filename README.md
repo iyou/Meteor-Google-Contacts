@@ -3,7 +3,7 @@ based on [Lajos Koszti](https://github.com/Ajnasz/Google-Contacts)'s Node librar
 
 # Install
 
-    meteor add google-contacts
+    meteor add long:google-contacts
 
 # Usage
 
